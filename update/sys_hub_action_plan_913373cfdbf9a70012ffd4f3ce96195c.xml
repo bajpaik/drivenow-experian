@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_plan">
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Get Credit Score">85b07b0fdbf9a70012ffd4f3ce961907</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"913373cfdbf9a70012ffd4f3ce96195c","name":"plan"}}</plan>
+        <snapshot>0c33ff8fdbf9a70012ffd4f3ce9619f4</snapshot>
+        <sys_class_name>sys_hub_action_plan</sys_class_name>
+        <sys_created_by>jimmy.yuan</sys_created_by>
+        <sys_created_on>2018-11-20 19:50:24</sys_created_on>
+        <sys_id>913373cfdbf9a70012ffd4f3ce96195c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>85b07b0fdbf9a70012ffd4f3ce961907</sys_name>
+        <sys_package display_value="Experian Spoke" source="x_car_experian">343f638bdbf9a70012ffd4f3ce96191a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Experian Spoke">343f638bdbf9a70012ffd4f3ce96191a</sys_scope>
+        <sys_update_name>sys_hub_action_plan_913373cfdbf9a70012ffd4f3ce96195c</sys_update_name>
+        <sys_updated_by>jimmy.yuan</sys_updated_by>
+        <sys_updated_on>2018-11-20 19:50:24</sys_updated_on>
+    </sys_hub_action_plan>
+</record_update>

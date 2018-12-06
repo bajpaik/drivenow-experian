@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>get_credit_score</internal_name>
+        <label_cache>[{"name":"{{action.applicant_ssn}}","label":"action➛Applicant SSN","type":"action","ref":""},{"name":"{{step[60a6cee5-67b5-4280-bc32-e04b1d80d871].u_client_id}}","label":"step➛Get Token➛Client ID","type":"step","ref":""},{"name":"{{step[60a6cee5-67b5-4280-bc32-e04b1d80d871].u_client_secret}}","label":"step➛Get Token➛Client secret","type":"step","ref":""},{"name":"{{step[60a6cee5-67b5-4280-bc32-e04b1d80d871].u_username}}","label":"step➛Get Token➛Username","type":"step","ref":""},{"name":"{{step[60a6cee5-67b5-4280-bc32-e04b1d80d871].u_password}}","label":"step➛Get Token➛Password","type":"step","ref":""},{"name":"{{step[60a6cee5-67b5-4280-bc32-e04b1d80d871].response_body}}","label":"step➛Get Token➛Response Body","type":"step","ref":""},{"name":"{{step[88159ad9-fe0d-456d-88c7-2617a3456094].t}}","label":"step➛Extract Token➛t","type":"step","ref":""},{"name":"{{step[88159ad9-fe0d-456d-88c7-2617a3456094].to}}","label":"step➛Extract Token➛to","type":"step","ref":""},{"name":"{{step[88159ad9-fe0d-456d-88c7-2617a3456094].tok}}","label":"step➛Extract Token➛tok","type":"step","ref":""},{"name":"{{step[88159ad9-fe0d-456d-88c7-2617a3456094].toke}}","label":"step➛Extract Token➛toke","type":"step","ref":""},{"name":"{{step[88159ad9-fe0d-456d-88c7-2617a3456094].token}}","label":"step➛Extract Token➛token","type":"step","ref":""},{"name":"{{step[df653ef8-3e43-415f-8e3d-1f6d05b6030d].response_body}}","label":"step➛Get Credit Score➛Response Body","type":"step","ref":""},{"name":"{{step[4531f90f-8c4d-4cc4-94d4-c2beb15ed222].s}}","label":"step➛Extract Score➛s","type":"step","ref":""},{"name":"{{step[4531f90f-8c4d-4cc4-94d4-c2beb15ed222].sc}}","label":"step➛Extract Score➛sc","type":"step","ref":""},{"name":"{{step[4531f90f-8c4d-4cc4-94d4-c2beb15ed222].sco}}","label":"step➛Extract Score➛sco","type":"step","ref":""},{"name":"{{step[4531f90f-8c4d-4cc4-94d4-c2beb15ed222].scor}}","label":"step➛Extract Score➛scor","type":"step","ref":""},{"name":"{{step[4531f90f-8c4d-4cc4-94d4-c2beb15ed222].score}}","label":"step➛Extract Score➛score","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Get Credit Score</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Get Credit Score">85b07b0fdbf9a70012ffd4f3ce961907</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>jimmy.yuan</sys_created_by>
+        <sys_created_on>2018-11-20 19:50:21</sys_created_on>
+        <sys_id>683333cfdbf9a70012ffd4f3ce9619ac</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Get Credit Score</sys_name>
+        <sys_package display_value="Experian Spoke" source="x_car_experian">343f638bdbf9a70012ffd4f3ce96191a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Experian Spoke">343f638bdbf9a70012ffd4f3ce96191a</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_683333cfdbf9a70012ffd4f3ce9619ac</sys_update_name>
+        <sys_updated_by>jimmy.yuan</sys_updated_by>
+        <sys_updated_on>2018-11-20 19:50:23</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=683333cfdbf9a70012ffd4f3ce9619ac"/>
+    <sys_variable_value action="delete_multiple" query="document_key=683333cfdbf9a70012ffd4f3ce9619ac"/>
+    <sys_element_mapping action="delete_multiple" query="id=683333cfdbf9a70012ffd4f3ce9619ac"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credit_score</field>
+        <id>683333cfdbf9a70012ffd4f3ce9619ac</id>
+        <sys_created_by>jimmy.yuan</sys_created_by>
+        <sys_created_on>2018-11-20 19:50:23</sys_created_on>
+        <sys_id>913373cfdbf9a70012ffd4f3ce961949</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jimmy.yuan</sys_updated_by>
+        <sys_updated_on>2018-11-20 19:50:23</sys_updated_on>
+        <table>var__m_sys_hub_action_output_683333cfdbf9a70012ffd4f3ce9619ac</table>
+        <value>{{step[4531f90f-8c4d-4cc4-94d4-c2beb15ed222].score}}</value>
+    </sys_element_mapping>
+</record_update>

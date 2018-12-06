@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role/>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>jimmy.yuan</sys_created_by>
+        <sys_created_on>2018-11-20 22:35:41</sys_created_on>
+        <sys_id>22095c1fdb7da70012ffd4f3ce9619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>de095c1fdb7da70012ffd4f3ce9619ea</sys_name>
+        <sys_package display_value="Experian Spoke" source="x_car_experian">343f638bdbf9a70012ffd4f3ce96191a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Experian Spoke">343f638bdbf9a70012ffd4f3ce96191a</sys_scope>
+        <sys_update_name>sys_embedded_help_role_22095c1fdb7da70012ffd4f3ce9619ed</sys_update_name>
+        <sys_updated_by>jimmy.yuan</sys_updated_by>
+        <sys_updated_on>2018-11-20 22:35:41</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
